@@ -37,7 +37,7 @@ namespace Siig.DataCollection.LogAnalytics
                 var datestring = DateTime.UtcNow.ToString("r");
                 var signature = CreateSignature(entityAsJson, SharedKey, WorkspaceId, datestring);
 
-                string url = $"https://{WorkspaceId}.ods.opsinsights.azure.com/api/logs?api-version={ApiVersion}";
+                string url = $"https://{WorkspaceId}.ods.opinsights.azure.com/api/logs?api-version={ApiVersion}";
 
                 HttpClient client = new HttpClient();
                 client.DefaultRequestHeaders.Add("Accept", "application/json");
