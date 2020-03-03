@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Siig.DataCollection.LogAnalytics</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Kasper Siig</Authors>
+    <Company>Siig</Company>
+    <PackageTags>Microsoft;Azure;Log Analytics;Logs;Azure Monitor</PackageTags>
+    <Description>
+      This package provides methods for sending log entries to Log Analytics.
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
